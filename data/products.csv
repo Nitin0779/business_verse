@@ -1,0 +1,71 @@
+product_id,product_name,category,price,cost,profit_margin,stock_quantity,supplier,rating
+PROD001,Laptop Pro 15,Electronics,1200,750,37.5,153,Supplier 11,3.5
+PROD002,Wireless Headphones,Electronics,199,80,59.8,464,Supplier 17,4.7
+PROD003,Smart Watch Ultra,Electronics,349,140,59.89,315,Supplier 19,3.8
+PROD004,Bluetooth Speaker,Electronics,89,35,60.67,362,Supplier 11,4.3
+PROD005,"4K Monitor 27""",Electronics,450,220,51.11,372,Supplier 20,3.6
+PROD006,Gaming Mouse,Electronics,79,28,64.56,358,Supplier 08,4.2
+PROD007,Mechanical Keyboard,Electronics,129,52,59.69,359,Supplier 13,3.7
+PROD008,Webcam HD 1080p,Electronics,69,25,63.77,443,Supplier 18,4.8
+PROD009,USB-C Hub 7-in-1,Electronics,59,20,66.1,333,Supplier 02,3.5
+PROD010,External SSD 1TB,Electronics,149,65,56.38,498,Supplier 06,4.3
+PROD011,Classic White Shirt,Clothing,49,15,69.39,260,Supplier 16,4.8
+PROD012,Denim Jeans Slim,Clothing,79,28,64.56,58,Supplier 16,4.0
+PROD013,Casual Sneakers,Clothing,95,40,57.89,189,Supplier 09,3.6
+PROD014,Wool Winter Coat,Clothing,189,75,60.32,134,Supplier 18,4.5
+PROD015,Sport T-Shirt,Clothing,35,12,65.71,226,Supplier 08,3.6
+PROD016,Leather Belt,Clothing,45,18,60.0,247,Supplier 19,4.2
+PROD017,Formal Trousers,Clothing,89,35,60.67,458,Supplier 16,4.2
+PROD018,Polo Shirt Premium,Clothing,65,22,66.15,80,Supplier 16,4.6
+PROD019,Running Shorts,Clothing,42,15,64.29,29,Supplier 04,4.1
+PROD020,Knit Sweater,Clothing,75,30,60.0,38,Supplier 18,4.3
+PROD021,Robot Vacuum Cleaner,Home & Garden,299,140,53.18,442,Supplier 03,4.7
+PROD022,Air Purifier Pro,Home & Garden,249,110,55.82,336,Supplier 10,4.8
+PROD023,Coffee Maker Deluxe,Home & Garden,129,52,59.69,307,Supplier 07,4.5
+PROD024,Electric Kettle 1.7L,Home & Garden,49,18,63.27,253,Supplier 11,4.0
+PROD025,Blender Pro 1000W,Home & Garden,89,35,60.67,47,Supplier 08,4.8
+PROD026,Plant Pot Set x3,Home & Garden,39,14,64.1,189,Supplier 18,4.7
+PROD027,LED Desk Lamp,Home & Garden,45,18,60.0,327,Supplier 16,4.6
+PROD028,Storage Ottoman,Home & Garden,75,32,57.33,206,Supplier 15,3.7
+PROD029,Throw Blanket Soft,Home & Garden,55,20,63.64,408,Supplier 08,3.5
+PROD030,Garden Hose 50ft,Home & Garden,65,28,56.92,201,Supplier 10,4.3
+PROD031,Yoga Mat Premium,Sports,45,18,60.0,211,Supplier 04,3.6
+PROD032,Resistance Bands Set,Sports,29,10,65.52,104,Supplier 16,3.7
+PROD033,Dumbbell Set 20kg,Sports,89,42,52.81,387,Supplier 14,3.7
+PROD034,Cycling Helmet,Sports,79,32,59.49,332,Supplier 07,3.8
+PROD035,Running Shoes Pro,Sports,129,55,57.36,496,Supplier 13,3.8
+PROD036,Gym Gloves,Sports,25,9,64.0,442,Supplier 07,4.6
+PROD037,Jump Rope Speed,Sports,19,7,63.16,75,Supplier 14,3.6
+PROD038,Foam Roller,Sports,35,12,65.71,344,Supplier 19,3.7
+PROD039,Pull-Up Bar,Sports,55,22,60.0,476,Supplier 15,4.2
+PROD040,Water Bottle 1L,Sports,22,8,63.64,321,Supplier 17,3.7
+PROD041,Business Analytics Guide,Books,45,12,73.33,275,Supplier 01,4.3
+PROD042,Python Programming,Books,55,15,72.73,44,Supplier 18,4.9
+PROD043,Data Science Handbook,Books,65,18,72.31,449,Supplier 19,4.2
+PROD044,Marketing Strategy,Books,38,10,73.68,280,Supplier 06,4.5
+PROD045,Leadership Principles,Books,32,8,75.0,108,Supplier 05,3.7
+PROD046,Finance for Managers,Books,48,13,72.92,356,Supplier 20,4.4
+PROD047,Machine Learning A-Z,Books,72,20,72.22,184,Supplier 17,4.8
+PROD048,SQL Mastery,Books,42,11,73.81,234,Supplier 20,4.9
+PROD049,Entrepreneurship Now,Books,36,9,75.0,410,Supplier 08,3.9
+PROD050,Digital Marketing,Books,40,11,72.5,195,Supplier 10,4.2
+PROD051,Premium Coffee Beans 1kg,Food & Beverage,32,10,68.75,88,Supplier 05,4.1
+PROD052,Organic Green Tea 100g,Food & Beverage,18,5,72.22,378,Supplier 17,3.9
+PROD053,Protein Powder Vanilla,Food & Beverage,55,20,63.64,379,Supplier 18,4.8
+PROD054,Mixed Nuts 500g,Food & Beverage,24,8,66.67,384,Supplier 18,4.4
+PROD055,Olive Oil Extra Virgin,Food & Beverage,28,9,67.86,122,Supplier 07,4.4
+PROD056,Dark Chocolate Bar 72%,Food & Beverage,12,4,66.67,168,Supplier 12,4.9
+PROD057,Granola Bars x12,Food & Beverage,22,7,68.18,87,Supplier 06,4.3
+PROD058,Almond Milk 1L,Food & Beverage,8,2,75.0,375,Supplier 11,4.6
+PROD059,Energy Drink Pack x24,Food & Beverage,35,12,65.71,409,Supplier 12,4.3
+PROD060,Collagen Powder 300g,Food & Beverage,45,16,64.44,318,Supplier 19,4.9
+PROD061,Car Dash Cam 4K,Automotive,99,42,57.58,383,Supplier 14,4.5
+PROD062,Tire Inflator Auto,Automotive,45,18,60.0,477,Supplier 18,3.9
+PROD063,Car Phone Mount,Automotive,25,9,64.0,453,Supplier 14,4.7
+PROD064,Seat Covers Set,Automotive,79,32,59.49,287,Supplier 04,3.5
+PROD065,Jump Starter Pack,Automotive,89,38,57.3,94,Supplier 02,4.5
+PROD066,Car Vacuum Cleaner,Automotive,55,22,60.0,122,Supplier 09,4.6
+PROD067,Steering Wheel Cover,Automotive,29,11,62.07,102,Supplier 10,4.5
+PROD068,Car Air Freshener x5,Automotive,15,5,66.67,94,Supplier 02,4.5
+PROD069,LED Car Lights Kit,Automotive,35,14,60.0,171,Supplier 07,4.6
+PROD070,Car Wax Premium,Automotive,28,10,64.29,36,Supplier 12,4.7

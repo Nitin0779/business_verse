@@ -1,0 +1,501 @@
+customer_id,name,email,age,region,registration_date,purchase_frequency,avg_order_value,last_purchase_days_ago,support_tickets,satisfaction_score,total_spent,churn
+CUST0001,Emily Chen,emily.chen1@email.com,29,North,2023-10-17,24,586.31,115,2,2,15066.01,0
+CUST0002,Michael Brown,michael.brown2@email.com,27,Central,2023-07-13,14,111.98,48,3,4,1571.08,0
+CUST0003,Sarah Johnson,sarah.johnson3@email.com,57,South,2022-01-28,23,1317.27,280,6,4,29681.68,1
+CUST0004,David Lee,david.lee4@email.com,22,South,2022-10-12,23,874.1,143,2,4,23781.08,0
+CUST0005,Jessica Martinez,jessica.martinez5@email.com,28,North,2022-12-11,13,238.6,177,4,1,3386.83,1
+CUST0006,Robert Taylor,robert.taylor6@email.com,29,West,2023-07-04,3,1126.48,322,5,10,2963.48,1
+CUST0007,Amanda Davis,amanda.davis7@email.com,24,South,2022-03-13,25,614.31,41,3,2,14621.35,0
+CUST0008,Christopher Anderson,christopher.anderson8@email.com,62,East,2023-04-10,6,771.85,108,4,2,4833.26,0
+CUST0009,Lauren Thomas,lauren.thomas9@email.com,56,South,2022-06-25,6,951.41,139,8,4,6130.01,1
+CUST0010,Daniel Jackson,daniel.jackson10@email.com,25,South,2024-05-13,27,112.6,162,6,5,2512.65,1
+CUST0011,Nicole White,nicole.white11@email.com,67,East,2023-08-04,7,1328.11,203,7,3,8422.43,1
+CUST0012,Matthew Harris,matthew.harris12@email.com,57,Central,2022-09-10,9,1506.68,220,6,6,12037.7,1
+CUST0013,Rachel Clark,rachel.clark13@email.com,54,West,2022-05-22,3,1523.78,57,2,3,5105.42,0
+CUST0014,Andrew Lewis,andrew.lewis14@email.com,60,North,2023-03-09,13,794.16,240,8,5,12269.46,1
+CUST0015,Stephanie Robinson,stephanie.robinson15@email.com,22,North,2024-05-31,22,1775.34,385,4,6,32988.76,1
+CUST0016,Joshua Walker,joshua.walker16@email.com,32,West,2023-03-22,1,1909.94,369,4,9,2110.07,1
+CUST0017,Megan Hall,megan.hall17@email.com,28,East,2023-06-04,27,1295.95,312,3,3,33225.92,1
+CUST0018,Ryan Allen,ryan.allen18@email.com,56,Central,2022-06-15,30,51.12,166,7,1,1295.5,1
+CUST0019,Ashley Young,ashley.young19@email.com,41,South,2023-01-07,2,519.7,291,1,2,1135.82,1
+CUST0020,Kevin King,kevin.king20@email.com,26,Central,2024-04-15,25,295.23,338,7,9,6392.1,1
+CUST0021,Brittany Wright,brittany.wright21@email.com,60,West,2023-06-25,7,1861.38,387,3,5,12503.22,1
+CUST0022,Brandon Scott,brandon.scott22@email.com,63,East,2023-11-19,15,1804.25,232,1,4,24083.46,0
+CUST0023,Amber Green,amber.green23@email.com,23,Central,2022-12-13,18,498.72,113,0,2,9723.27,0
+CUST0024,Tyler Adams,tyler.adams24@email.com,36,North,2022-03-02,29,111.26,170,1,9,2888.4,0
+CUST0025,Melissa Baker,melissa.baker25@email.com,53,South,2023-11-17,18,308.01,293,7,4,6175.37,1
+CUST0026,Aaron Nelson,aaron.nelson26@email.com,48,South,2024-04-06,4,239.02,221,5,7,922.08,0
+CUST0027,Heather Carter,heather.carter27@email.com,68,North,2024-06-03,22,1324.24,331,1,1,27998.5,1
+CUST0028,Adam Mitchell,adam.mitchell28@email.com,28,South,2022-12-14,7,420.91,230,2,7,2573.35,0
+CUST0029,Danielle Perez,danielle.perez29@email.com,37,North,2023-04-19,15,1625.64,282,1,1,25868.6,1
+CUST0030,Jonathan Roberts,jonathan.roberts30@email.com,22,North,2023-07-08,30,1519.45,122,2,7,45321.69,0
+CUST0031,Crystal Turner,crystal.turner31@email.com,47,North,2022-08-07,6,789.0,200,4,8,4327.35,0
+CUST0032,Nathan Phillips,nathan.phillips32@email.com,68,Central,2023-12-15,22,1450.9,80,3,5,28315.43,0
+CUST0033,Monica Campbell,monica.campbell33@email.com,59,Central,2022-03-01,2,1508.55,30,0,10,2989.09,0
+CUST0034,Samuel Parker,samuel.parker34@email.com,55,South,2024-05-23,2,1923.52,42,2,2,3993.28,0
+CUST0035,Vanessa Evans,vanessa.evans35@email.com,37,West,2023-11-23,4,1886.11,292,3,10,7829.68,0
+CUST0036,Benjamin Edwards,benjamin.edwards36@email.com,27,West,2023-09-27,22,1188.16,268,5,5,23047.31,1
+CUST0037,Alicia Collins,alicia.collins37@email.com,42,South,2024-01-04,9,821.78,344,4,8,6852.2,1
+CUST0038,Gregory Stewart,gregory.stewart38@email.com,26,North,2024-02-09,15,1261.26,289,1,2,19203.7,1
+CUST0039,Tiffany Sanchez,tiffany.sanchez39@email.com,38,South,2023-06-03,30,730.57,36,3,6,20032.12,0
+CUST0040,Patrick Morris,patrick.morris40@email.com,56,East,2023-03-25,20,1968.51,335,8,1,42013.72,1
+CUST0041,Kayla Rogers,kayla.rogers41@email.com,41,North,2023-07-22,29,311.87,60,1,9,7797.75,0
+CUST0042,Eric Reed,eric.reed42@email.com,60,South,2022-10-16,23,718.62,352,4,9,16452.44,1
+CUST0043,Andrea Cook,andrea.cook43@email.com,25,North,2024-05-16,21,875.97,142,0,1,17170.65,0
+CUST0044,Steven Morgan,steven.morgan44@email.com,62,East,2022-05-14,6,1495.4,283,6,9,7212.62,1
+CUST0045,Jennifer Bell,jennifer.bell45@email.com,66,South,2022-03-19,18,120.25,190,8,3,2103.71,1
+CUST0046,Timothy Murphy,timothy.murphy46@email.com,41,East,2022-02-12,29,1869.52,21,5,4,58164.46,0
+CUST0047,Laura Bailey,laura.bailey47@email.com,28,East,2023-11-14,25,1141.77,209,2,4,32707.21,0
+CUST0048,Kenneth Rivera,kenneth.rivera48@email.com,33,West,2024-03-30,1,399.75,171,6,4,362.46,1
+CUST0049,Sharon Cooper,sharon.cooper49@email.com,66,North,2024-03-17,13,1750.73,241,3,4,25641.63,1
+CUST0050,James Wilson 2,james.wilson250@email.com,44,East,2023-04-17,27,1600.92,117,3,1,45991.8,0
+CUST0051,Emily Chen 2,emily.chen251@email.com,43,East,2023-02-13,28,185.37,396,4,6,5484.1,1
+CUST0052,Michael Brown 2,michael.brown252@email.com,65,Central,2023-02-14,11,1881.51,60,4,3,21363.78,0
+CUST0053,Sarah Johnson 2,sarah.johnson253@email.com,24,North,2022-09-29,20,897.4,374,5,7,18710.49,1
+CUST0054,David Lee 2,david.lee254@email.com,29,West,2023-06-08,29,1174.35,131,0,7,27267.96,0
+CUST0055,Jessica Martinez 2,jessica.martinez255@email.com,56,South,2024-04-05,12,891.03,341,5,10,9896.49,1
+CUST0056,Robert Taylor 2,robert.taylor256@email.com,29,East,2024-05-18,17,653.11,210,5,7,11978.7,0
+CUST0057,Amanda Davis 2,amanda.davis257@email.com,30,South,2023-07-22,14,1346.61,195,2,10,19373.66,0
+CUST0058,Christopher Anderson 2,christopher.anderson258@email.com,57,North,2023-02-20,10,609.48,221,5,8,5952.88,0
+CUST0059,Lauren Thomas 2,lauren.thomas259@email.com,35,Central,2023-11-23,16,1597.78,377,2,2,23353.52,1
+CUST0060,Daniel Jackson 2,daniel.jackson260@email.com,62,Central,2023-11-11,11,232.11,385,3,5,2271.99,1
+CUST0061,Nicole White 2,nicole.white261@email.com,31,North,2022-07-23,2,527.44,244,1,8,1018.78,0
+CUST0062,Matthew Harris 2,matthew.harris262@email.com,58,South,2023-10-07,23,1407.89,254,6,4,27816.61,1
+CUST0063,Rachel Clark 2,rachel.clark263@email.com,22,North,2023-12-06,25,879.04,91,8,8,18022.24,0
+CUST0064,Andrew Lewis 2,andrew.lewis264@email.com,29,West,2022-09-13,5,1612.76,342,8,9,8371.68,1
+CUST0065,Stephanie Robinson 2,stephanie.robinson265@email.com,50,Central,2024-02-13,27,1452.58,259,6,9,38371.16,1
+CUST0066,Joshua Walker 2,joshua.walker266@email.com,52,West,2022-06-12,9,1515.96,327,4,9,13559.58,1
+CUST0067,Megan Hall 2,megan.hall267@email.com,39,West,2022-09-02,3,1441.41,121,4,6,4012.38,0
+CUST0068,Ryan Allen 2,ryan.allen268@email.com,27,South,2023-07-08,5,500.96,356,2,4,2068.19,1
+CUST0069,Ashley Young 2,ashley.young269@email.com,43,Central,2023-02-22,15,860.76,106,6,7,15002.21,0
+CUST0070,Kevin King 2,kevin.king270@email.com,66,North,2023-08-22,28,1767.28,295,6,8,39703.78,1
+CUST0071,Brittany Wright 2,brittany.wright271@email.com,41,West,2022-12-27,28,1788.7,215,8,9,56090.99,1
+CUST0072,Brandon Scott 2,brandon.scott272@email.com,53,South,2022-08-14,9,899.88,15,6,6,8646.0,0
+CUST0073,Amber Green 2,amber.green273@email.com,47,South,2024-03-28,27,961.41,66,8,1,30183.31,1
+CUST0074,Tyler Adams 2,tyler.adams274@email.com,58,North,2023-08-30,3,1303.36,70,7,3,3206.71,1
+CUST0075,Melissa Baker 2,melissa.baker275@email.com,42,South,2023-01-24,15,687.35,390,6,5,11349.56,1
+CUST0076,Aaron Nelson 2,aaron.nelson276@email.com,48,East,2024-05-01,27,209.72,10,8,1,6794.72,1
+CUST0077,Heather Carter 2,heather.carter277@email.com,36,North,2022-12-25,25,1916.71,21,0,4,42155.37,0
+CUST0078,Adam Mitchell 2,adam.mitchell278@email.com,61,South,2022-01-21,8,296.13,343,1,10,2793.34,0
+CUST0079,Danielle Perez 2,danielle.perez279@email.com,66,East,2023-04-22,25,769.35,311,1,3,22809.08,1
+CUST0080,Jonathan Roberts 2,jonathan.roberts280@email.com,59,North,2022-04-21,30,658.32,347,6,7,23237.15,1
+CUST0081,Crystal Turner 2,crystal.turner281@email.com,26,Central,2022-07-23,23,1669.61,125,1,5,43781.68,0
+CUST0082,Nathan Phillips 2,nathan.phillips282@email.com,29,Central,2023-09-07,26,130.08,273,6,6,2798.95,1
+CUST0083,Monica Campbell 2,monica.campbell283@email.com,43,North,2023-10-26,28,869.11,251,1,7,28820.4,0
+CUST0084,Samuel Parker 2,samuel.parker284@email.com,51,South,2023-10-13,14,393.47,268,4,10,6187.68,0
+CUST0085,Vanessa Evans 2,vanessa.evans285@email.com,52,West,2023-07-06,14,1660.18,304,4,6,26512.4,1
+CUST0086,Benjamin Edwards 2,benjamin.edwards286@email.com,27,East,2024-04-30,29,929.06,385,7,10,28131.8,1
+CUST0087,Alicia Collins 2,alicia.collins287@email.com,43,North,2023-01-24,16,1709.36,94,7,4,25761.56,1
+CUST0088,Gregory Stewart 2,gregory.stewart288@email.com,43,East,2022-09-22,29,1212.5,142,8,1,35396.36,1
+CUST0089,Tiffany Sanchez 2,tiffany.sanchez289@email.com,27,South,2022-07-15,24,842.53,285,3,8,21400.82,0
+CUST0090,Patrick Morris 2,patrick.morris290@email.com,50,North,2023-05-18,3,623.76,208,3,5,1994.01,0
+CUST0091,Kayla Rogers 2,kayla.rogers291@email.com,52,Central,2023-01-13,17,720.33,382,8,6,11519.74,1
+CUST0092,Eric Reed 2,eric.reed292@email.com,39,East,2023-04-10,9,499.55,370,3,6,3811.76,1
+CUST0093,Andrea Cook 2,andrea.cook293@email.com,66,South,2023-07-03,7,471.95,248,4,10,3933.47,0
+CUST0094,Steven Morgan 2,steven.morgan294@email.com,60,East,2023-06-22,4,1673.63,152,3,6,5836.13,0
+CUST0095,Jennifer Bell 2,jennifer.bell295@email.com,67,Central,2022-01-15,5,584.91,28,8,5,3155.49,0
+CUST0096,Timothy Murphy 2,timothy.murphy296@email.com,62,West,2022-05-10,4,1751.8,294,4,8,6947.54,1
+CUST0097,Laura Bailey 2,laura.bailey297@email.com,33,North,2022-12-15,9,1885.07,245,1,2,16291.81,1
+CUST0098,Kenneth Rivera 2,kenneth.rivera298@email.com,58,North,2022-03-17,5,340.94,289,4,2,2041.49,1
+CUST0099,Sharon Cooper 2,sharon.cooper299@email.com,57,West,2022-05-02,20,1212.45,317,3,9,23088.71,0
+CUST0100,James Wilson 3,james.wilson3100@email.com,41,Central,2023-03-30,14,645.49,318,0,10,10700.04,0
+CUST0101,Emily Chen 3,emily.chen3101@email.com,35,South,2022-04-12,9,1337.83,81,3,3,12290.87,0
+CUST0102,Michael Brown 3,michael.brown3102@email.com,22,West,2022-06-10,15,1394.27,241,4,1,18667.68,1
+CUST0103,Sarah Johnson 3,sarah.johnson3103@email.com,40,West,2023-12-25,3,1390.4,136,3,7,3528.46,0
+CUST0104,David Lee 3,david.lee3104@email.com,63,South,2022-08-19,30,567.98,73,1,1,14762.41,0
+CUST0105,Jessica Martinez 3,jessica.martinez3105@email.com,60,Central,2022-11-11,30,612.79,64,7,5,19852.44,0
+CUST0106,Robert Taylor 3,robert.taylor3106@email.com,54,Central,2022-10-06,16,903.63,307,0,7,15814.44,0
+CUST0107,Amanda Davis 3,amanda.davis3107@email.com,38,North,2023-09-11,3,496.4,346,0,5,1534.62,0
+CUST0108,Christopher Anderson 3,christopher.anderson3108@email.com,33,West,2024-02-21,17,1320.44,143,2,10,21871.79,0
+CUST0109,Lauren Thomas 3,lauren.thomas3109@email.com,53,North,2024-04-13,16,728.52,171,5,2,13324.26,1
+CUST0110,Daniel Jackson 3,daniel.jackson3110@email.com,48,West,2022-12-04,10,1342.04,206,8,1,13177.9,1
+CUST0111,Nicole White 3,nicole.white3111@email.com,38,East,2022-11-19,4,1941.86,207,8,1,8257.29,1
+CUST0112,Matthew Harris 3,matthew.harris3112@email.com,51,West,2023-07-10,2,415.79,186,7,8,918.06,1
+CUST0113,Rachel Clark 3,rachel.clark3113@email.com,39,Central,2022-07-28,5,1858.96,225,7,2,7543.17,1
+CUST0114,Andrew Lewis 3,andrew.lewis3114@email.com,60,South,2023-10-08,23,358.84,283,0,9,7949.57,0
+CUST0115,Stephanie Robinson 3,stephanie.robinson3115@email.com,29,West,2022-08-19,4,1313.03,79,7,5,5270.76,0
+CUST0116,Joshua Walker 3,joshua.walker3116@email.com,48,West,2022-10-07,16,525.28,283,2,7,7364.38,0
+CUST0117,Megan Hall 3,megan.hall3117@email.com,54,South,2023-09-06,28,186.13,396,6,6,6116.9,1
+CUST0118,Ryan Allen 3,ryan.allen3118@email.com,39,North,2023-06-04,10,1465.8,301,7,3,14344.6,1
+CUST0119,Ashley Young 3,ashley.young3119@email.com,44,East,2023-05-11,18,1537.6,194,7,6,31768.56,1
+CUST0120,Kevin King 3,kevin.king3120@email.com,37,Central,2023-12-16,13,505.45,398,6,1,6092.96,1
+CUST0121,Brittany Wright 3,brittany.wright3121@email.com,67,West,2023-04-30,13,1977.41,334,2,8,30485.9,0
+CUST0122,Brandon Scott 3,brandon.scott3122@email.com,54,Central,2022-05-10,11,1745.92,226,1,9,22358.15,0
+CUST0123,Amber Green 3,amber.green3123@email.com,68,South,2022-01-16,14,1748.32,80,1,8,27232.78,0
+CUST0124,Tyler Adams 3,tyler.adams3124@email.com,43,Central,2022-09-29,23,825.09,42,5,9,18066.24,0
+CUST0125,Melissa Baker 3,melissa.baker3125@email.com,62,West,2022-11-21,28,1104.98,317,1,4,32562.66,1
+CUST0126,Aaron Nelson 3,aaron.nelson3126@email.com,36,North,2022-10-22,14,1957.76,390,1,8,23750.85,0
+CUST0127,Heather Carter 3,heather.carter3127@email.com,23,North,2022-11-03,11,1602.48,151,5,6,17138.56,0
+CUST0128,Adam Mitchell 3,adam.mitchell3128@email.com,55,West,2022-09-08,19,1379.51,93,2,3,21796.48,0
+CUST0129,Danielle Perez 3,danielle.perez3129@email.com,46,Central,2024-06-10,22,519.62,299,2,4,11253.99,1
+CUST0130,Jonathan Roberts 3,jonathan.roberts3130@email.com,51,East,2022-09-18,22,68.32,239,4,9,1297.41,0
+CUST0131,Crystal Turner 3,crystal.turner3131@email.com,44,Central,2023-03-29,10,1295.93,218,4,8,14749.26,0
+CUST0132,Nathan Phillips 3,nathan.phillips3132@email.com,46,West,2022-07-23,4,512.55,293,5,10,1882.8,0
+CUST0133,Monica Campbell 3,monica.campbell3133@email.com,40,North,2023-12-18,27,1333.55,141,0,10,41263.67,0
+CUST0134,Samuel Parker 3,samuel.parker3134@email.com,25,Central,2024-03-07,24,1018.62,147,3,10,27399.4,0
+CUST0135,Vanessa Evans 3,vanessa.evans3135@email.com,62,South,2022-08-13,20,538.72,387,2,2,12512.97,1
+CUST0136,Benjamin Edwards 3,benjamin.edwards3136@email.com,24,East,2023-10-24,26,909.61,297,5,3,19772.54,1
+CUST0137,Alicia Collins 3,alicia.collins3137@email.com,42,West,2022-10-30,6,441.55,277,5,9,2651.2,0
+CUST0138,Gregory Stewart 3,gregory.stewart3138@email.com,32,East,2022-10-07,30,1658.15,247,4,6,55798.06,1
+CUST0139,Tiffany Sanchez 3,tiffany.sanchez3139@email.com,26,South,2023-04-25,25,1934.68,347,6,9,45770.18,1
+CUST0140,Patrick Morris 3,patrick.morris3140@email.com,47,North,2024-03-20,9,1096.32,233,5,5,10200.62,1
+CUST0141,Kayla Rogers 3,kayla.rogers3141@email.com,62,East,2024-04-22,4,1365.93,242,0,10,6303.46,0
+CUST0142,Eric Reed 3,eric.reed3142@email.com,42,Central,2023-07-29,8,1312.92,326,7,5,11130.37,1
+CUST0143,Andrea Cook 3,andrea.cook3143@email.com,30,North,2022-04-30,2,643.51,253,1,2,1150.49,1
+CUST0144,Steven Morgan 3,steven.morgan3144@email.com,30,West,2023-07-05,15,773.47,381,8,7,12007.38,1
+CUST0145,Jennifer Bell 3,jennifer.bell3145@email.com,31,West,2024-01-15,21,243.09,251,6,5,4150.72,1
+CUST0146,Timothy Murphy 3,timothy.murphy3146@email.com,35,West,2023-01-15,15,1903.58,186,1,6,29061.57,0
+CUST0147,Laura Bailey 3,laura.bailey3147@email.com,44,North,2023-10-23,13,587.97,63,7,2,8141.27,1
+CUST0148,Kenneth Rivera 3,kenneth.rivera3148@email.com,62,Central,2023-10-20,1,148.63,171,3,3,165.69,0
+CUST0149,Sharon Cooper 3,sharon.cooper3149@email.com,26,Central,2022-07-30,7,1193.45,120,5,3,9318.7,1
+CUST0150,James Wilson 4,james.wilson4150@email.com,22,East,2023-09-03,28,1968.85,67,8,5,61710.36,1
+CUST0151,Emily Chen 4,emily.chen4151@email.com,64,North,2022-04-23,5,78.98,122,5,1,343.44,1
+CUST0152,Michael Brown 4,michael.brown4152@email.com,30,West,2022-02-23,17,271.62,33,7,8,5131.04,0
+CUST0153,Sarah Johnson 4,sarah.johnson4153@email.com,59,North,2023-06-10,15,1032.49,315,0,9,14258.46,0
+CUST0154,David Lee 4,david.lee4154@email.com,23,North,2023-10-21,16,1702.23,219,1,8,29549.64,0
+CUST0155,Jessica Martinez 4,jessica.martinez4155@email.com,26,North,2023-03-31,11,1236.18,34,2,5,14274.17,0
+CUST0156,Robert Taylor 4,robert.taylor4156@email.com,57,East,2023-08-23,13,1989.52,272,4,8,25921.19,0
+CUST0157,Amanda Davis 4,amanda.davis4157@email.com,28,North,2023-03-17,28,1326.69,394,8,4,36108.23,1
+CUST0158,Christopher Anderson 4,christopher.anderson4158@email.com,48,East,2022-08-22,27,934.32,213,1,6,24487.64,0
+CUST0159,Lauren Thomas 4,lauren.thomas4159@email.com,38,East,2023-11-13,5,1389.3,243,1,2,7868.36,1
+CUST0160,Daniel Jackson 4,daniel.jackson4160@email.com,49,North,2022-04-06,24,1490.65,67,8,1,37012.94,1
+CUST0161,Nicole White 4,nicole.white4161@email.com,57,East,2023-07-30,22,288.35,182,6,1,7532.25,1
+CUST0162,Matthew Harris 4,matthew.harris4162@email.com,41,East,2023-09-07,4,1176.94,109,2,8,4188.48,0
+CUST0163,Rachel Clark 4,rachel.clark4163@email.com,44,Central,2022-04-21,12,274.03,143,3,7,3742.36,0
+CUST0164,Andrew Lewis 4,andrew.lewis4164@email.com,61,Central,2024-02-25,22,1303.26,14,4,1,25006.51,0
+CUST0165,Stephanie Robinson 4,stephanie.robinson4165@email.com,41,East,2023-12-21,12,61.91,74,6,2,636.5,1
+CUST0166,Joshua Walker 4,joshua.walker4166@email.com,23,North,2023-10-11,24,1084.44,193,6,8,24370.19,0
+CUST0167,Megan Hall 4,megan.hall4167@email.com,41,East,2023-01-14,25,1885.74,306,1,1,40648.63,1
+CUST0168,Ryan Allen 4,ryan.allen4168@email.com,61,North,2024-02-12,22,209.08,227,6,8,4796.77,1
+CUST0169,Ashley Young 4,ashley.young4169@email.com,39,South,2023-03-01,25,1049.08,177,6,2,23953.08,1
+CUST0170,Kevin King 4,kevin.king4170@email.com,59,West,2023-11-26,17,1350.91,24,3,7,27415.68,0
+CUST0171,Brittany Wright 4,brittany.wright4171@email.com,22,South,2022-02-26,10,1893.38,393,2,5,17339.17,1
+CUST0172,Brandon Scott 4,brandon.scott4172@email.com,22,West,2022-05-03,24,889.78,67,6,9,23094.46,0
+CUST0173,Amber Green 4,amber.green4173@email.com,57,East,2023-05-28,3,824.29,380,0,7,1996.83,0
+CUST0174,Tyler Adams 4,tyler.adams4174@email.com,42,Central,2022-03-21,14,1168.13,364,6,5,13836.47,1
+CUST0175,Melissa Baker 4,melissa.baker4175@email.com,42,South,2022-01-22,26,1897.85,236,5,2,48094.94,1
+CUST0176,Aaron Nelson 4,aaron.nelson4176@email.com,37,West,2022-04-19,19,830.88,41,6,5,17338.9,0
+CUST0177,Heather Carter 4,heather.carter4177@email.com,43,South,2022-08-15,3,1045.44,59,8,9,2752.31,0
+CUST0178,Adam Mitchell 4,adam.mitchell4178@email.com,44,East,2024-03-05,24,1918.54,331,2,4,38729.42,1
+CUST0179,Danielle Perez 4,danielle.perez4179@email.com,34,South,2022-09-20,20,348.1,389,1,3,8218.76,1
+CUST0180,Jonathan Roberts 4,jonathan.roberts4180@email.com,53,West,2023-10-06,25,1149.28,297,7,10,30375.38,1
+CUST0181,Crystal Turner 4,crystal.turner4181@email.com,42,East,2023-10-02,5,907.54,241,7,5,5075.56,1
+CUST0182,Nathan Phillips 4,nathan.phillips4182@email.com,25,East,2023-08-29,17,194.67,237,7,1,2722.82,1
+CUST0183,Monica Campbell 4,monica.campbell4183@email.com,40,North,2024-05-01,21,1735.29,47,8,7,35897.56,0
+CUST0184,Samuel Parker 4,samuel.parker4184@email.com,24,West,2023-07-22,30,1629.14,334,3,6,50927.03,1
+CUST0185,Vanessa Evans 4,vanessa.evans4185@email.com,31,North,2023-05-29,15,251.83,176,1,9,3998.25,0
+CUST0186,Benjamin Edwards 4,benjamin.edwards4186@email.com,37,West,2022-02-10,15,1071.93,313,2,6,15261.19,1
+CUST0187,Alicia Collins 4,alicia.collins4187@email.com,46,West,2022-10-17,25,709.82,307,0,6,14664.26,0
+CUST0188,Gregory Stewart 4,gregory.stewart4188@email.com,57,West,2022-04-07,10,541.39,337,2,6,4507.62,1
+CUST0189,Tiffany Sanchez 4,tiffany.sanchez4189@email.com,31,East,2023-11-11,10,1937.01,358,6,3,20106.48,1
+CUST0190,Patrick Morris 4,patrick.morris4190@email.com,41,Central,2022-03-28,13,1304.81,169,2,9,14204.1,0
+CUST0191,Kayla Rogers 4,kayla.rogers4191@email.com,49,Central,2023-11-18,12,85.55,159,2,4,961.61,0
+CUST0192,Eric Reed 4,eric.reed4192@email.com,53,South,2024-02-24,8,1999.95,80,1,5,18203.89,0
+CUST0193,Andrea Cook 4,andrea.cook4193@email.com,54,Central,2022-04-14,27,1490.36,270,0,6,46298.1,0
+CUST0194,Steven Morgan 4,steven.morgan4194@email.com,30,Central,2023-09-25,13,350.79,93,2,8,3727.92,0
+CUST0195,Jennifer Bell 4,jennifer.bell4195@email.com,65,South,2023-01-09,15,1240.66,386,7,4,18863.08,1
+CUST0196,Timothy Murphy 4,timothy.murphy4196@email.com,52,South,2022-11-13,12,1372.7,293,7,8,18247.72,1
+CUST0197,Laura Bailey 4,laura.bailey4197@email.com,46,Central,2024-03-07,17,866.39,83,3,10,12598.27,0
+CUST0198,Kenneth Rivera 4,kenneth.rivera4198@email.com,25,West,2022-09-14,28,773.86,53,8,2,19805.17,1
+CUST0199,Sharon Cooper 4,sharon.cooper4199@email.com,32,East,2024-02-21,15,1815.35,76,6,2,32092.63,1
+CUST0200,James Wilson 5,james.wilson5200@email.com,50,East,2022-08-16,30,102.01,28,6,9,2906.01,0
+CUST0201,Emily Chen 5,emily.chen5201@email.com,27,East,2023-01-31,8,104.97,51,5,3,718.03,0
+CUST0202,Michael Brown 5,michael.brown5202@email.com,52,South,2022-10-21,25,1425.8,230,0,2,28786.96,0
+CUST0203,Sarah Johnson 5,sarah.johnson5203@email.com,31,Central,2022-08-09,24,1237.32,217,1,5,26579.3,0
+CUST0204,David Lee 5,david.lee5204@email.com,25,South,2022-05-05,14,1295.96,319,7,2,15319.29,1
+CUST0205,Jessica Martinez 5,jessica.martinez5205@email.com,60,Central,2023-05-27,1,1282.31,295,3,3,1175.25,1
+CUST0206,Robert Taylor 5,robert.taylor5206@email.com,61,East,2022-01-02,8,1162.79,96,1,9,11068.48,0
+CUST0207,Amanda Davis 5,amanda.davis5207@email.com,55,Central,2022-03-11,17,1583.5,260,8,1,25739.93,1
+CUST0208,Christopher Anderson 5,christopher.anderson5208@email.com,24,West,2023-04-27,12,544.62,9,5,2,6129.73,0
+CUST0209,Lauren Thomas 5,lauren.thomas5209@email.com,64,North,2024-01-21,25,1184.71,388,5,3,24219.45,1
+CUST0210,Daniel Jackson 5,daniel.jackson5210@email.com,43,South,2023-07-14,27,1569.33,238,7,3,47651.41,1
+CUST0211,Nicole White 5,nicole.white5211@email.com,67,West,2022-03-06,2,622.21,23,3,1,1152.63,0
+CUST0212,Matthew Harris 5,matthew.harris5212@email.com,54,West,2022-11-14,27,1108.91,130,0,4,27378.99,0
+CUST0213,Rachel Clark 5,rachel.clark5213@email.com,25,East,2024-06-01,9,292.73,189,6,7,2890.97,1
+CUST0214,Andrew Lewis 5,andrew.lewis5214@email.com,43,South,2023-01-31,16,1399.53,189,8,5,25089.86,1
+CUST0215,Stephanie Robinson 5,stephanie.robinson5215@email.com,49,North,2024-01-15,14,1224.78,93,8,5,15920.65,1
+CUST0216,Joshua Walker 5,joshua.walker5216@email.com,42,East,2022-03-23,10,919.54,368,6,3,9893.39,1
+CUST0217,Megan Hall 5,megan.hall5217@email.com,50,North,2022-12-26,24,1746.57,181,6,5,44256.17,1
+CUST0218,Ryan Allen 5,ryan.allen5218@email.com,25,North,2024-03-21,22,1293.15,187,8,3,33601.92,1
+CUST0219,Ashley Young 5,ashley.young5219@email.com,60,West,2022-05-27,2,296.15,121,5,6,564.55,0
+CUST0220,Kevin King 5,kevin.king5220@email.com,24,Central,2023-08-04,5,1374.17,190,5,8,7593.9,0
+CUST0221,Brittany Wright 5,brittany.wright5221@email.com,30,Central,2023-08-11,12,826.17,333,4,4,11740.29,1
+CUST0222,Brandon Scott 5,brandon.scott5222@email.com,33,West,2022-01-27,17,804.63,288,1,5,15183.17,0
+CUST0223,Amber Green 5,amber.green5223@email.com,50,South,2023-12-22,20,606.87,252,3,2,10368.88,1
+CUST0224,Tyler Adams 5,tyler.adams5224@email.com,50,South,2022-03-17,29,1441.07,45,5,6,45293.8,0
+CUST0225,Melissa Baker 5,melissa.baker5225@email.com,56,East,2023-07-18,29,634.92,81,2,6,18477.17,0
+CUST0226,Aaron Nelson 5,aaron.nelson5226@email.com,34,South,2022-05-05,8,1591.23,14,5,9,13097.87,0
+CUST0227,Heather Carter 5,heather.carter5227@email.com,57,South,2023-04-24,20,1774.28,34,4,7,42576.97,0
+CUST0228,Adam Mitchell 5,adam.mitchell5228@email.com,52,Central,2024-01-07,14,1549.87,295,1,3,25798.09,1
+CUST0229,Danielle Perez 5,danielle.perez5229@email.com,26,West,2023-10-20,15,1376.21,177,2,9,21797.46,0
+CUST0230,Jonathan Roberts 5,jonathan.roberts5230@email.com,30,West,2022-07-06,17,1825.89,29,1,9,26731.95,0
+CUST0231,Crystal Turner 5,crystal.turner5231@email.com,32,East,2022-06-18,30,1433.2,178,8,5,48945.51,1
+CUST0232,Nathan Phillips 5,nathan.phillips5232@email.com,34,Central,2022-09-14,9,294.08,156,8,2,2649.44,1
+CUST0233,Monica Campbell 5,monica.campbell5233@email.com,59,Central,2022-06-22,5,383.84,320,5,10,1566.98,1
+CUST0234,Samuel Parker 5,samuel.parker5234@email.com,23,North,2024-06-03,2,1899.67,395,4,4,4205.05,1
+CUST0235,Vanessa Evans 5,vanessa.evans5235@email.com,61,North,2023-03-03,16,1783.54,280,4,5,28341.96,1
+CUST0236,Benjamin Edwards 5,benjamin.edwards5236@email.com,65,West,2024-04-04,10,934.41,353,0,3,9118.37,1
+CUST0237,Alicia Collins 5,alicia.collins5237@email.com,51,South,2023-05-11,11,1232.99,161,5,6,16141.87,0
+CUST0238,Gregory Stewart 5,gregory.stewart5238@email.com,45,Central,2022-05-14,18,257.06,124,7,2,4196.71,1
+CUST0239,Tiffany Sanchez 5,tiffany.sanchez5239@email.com,31,North,2022-09-11,2,615.91,197,6,4,1459.8,1
+CUST0240,Patrick Morris 5,patrick.morris5240@email.com,42,Central,2022-06-13,24,659.79,391,2,8,18976.42,1
+CUST0241,Kayla Rogers 5,kayla.rogers5241@email.com,53,East,2023-04-24,16,95.19,202,8,8,1807.35,1
+CUST0242,Eric Reed 5,eric.reed5242@email.com,59,East,2022-08-09,2,148.55,254,7,5,301.46,1
+CUST0243,Andrea Cook 5,andrea.cook5243@email.com,28,West,2024-05-17,5,1770.79,373,5,7,8379.16,1
+CUST0244,Steven Morgan 5,steven.morgan5244@email.com,25,Central,2023-02-15,18,429.58,284,4,2,7380.92,1
+CUST0245,Jennifer Bell 5,jennifer.bell5245@email.com,57,East,2023-04-07,27,1978.73,349,1,3,63578.36,1
+CUST0246,Timothy Murphy 5,timothy.murphy5246@email.com,45,East,2023-02-08,18,1880.95,387,2,4,35244.74,1
+CUST0247,Laura Bailey 5,laura.bailey5247@email.com,54,North,2023-02-16,2,125.88,366,5,8,253.71,1
+CUST0248,Kenneth Rivera 5,kenneth.rivera5248@email.com,60,Central,2022-06-02,5,689.53,314,5,3,3300.03,1
+CUST0249,Sharon Cooper 5,sharon.cooper5249@email.com,41,Central,2023-09-24,11,1039.26,261,8,8,12386.37,1
+CUST0250,James Wilson 6,james.wilson6250@email.com,52,North,2022-11-03,12,695.92,57,6,10,7708.6,0
+CUST0251,Emily Chen 6,emily.chen6251@email.com,66,North,2024-01-13,20,975.45,336,3,1,20160.78,1
+CUST0252,Michael Brown 6,michael.brown6252@email.com,55,Central,2022-06-24,25,1690.28,76,3,1,43483.64,0
+CUST0253,Sarah Johnson 6,sarah.johnson6253@email.com,29,South,2023-12-19,1,910.03,215,2,7,979.37,0
+CUST0254,David Lee 6,david.lee6254@email.com,54,Central,2023-02-25,30,969.63,377,0,3,29306.29,1
+CUST0255,Jessica Martinez 6,jessica.martinez6255@email.com,42,West,2023-07-29,17,784.81,89,7,9,12500.32,0
+CUST0256,Robert Taylor 6,robert.taylor6256@email.com,65,East,2022-12-29,20,994.15,127,4,9,18280.42,0
+CUST0257,Amanda Davis 6,amanda.davis6257@email.com,40,South,2022-11-01,23,1424.73,163,7,6,33561.63,1
+CUST0258,Christopher Anderson 6,christopher.anderson6258@email.com,68,East,2024-03-25,10,287.65,347,8,7,3331.86,1
+CUST0259,Lauren Thomas 6,lauren.thomas6259@email.com,44,South,2023-02-09,10,132.03,366,1,6,1544.23,1
+CUST0260,Daniel Jackson 6,daniel.jackson6260@email.com,38,West,2023-11-03,7,444.03,276,4,9,3352.11,0
+CUST0261,Nicole White 6,nicole.white6261@email.com,28,Central,2022-05-21,24,1194.32,125,0,9,25518.38,0
+CUST0262,Matthew Harris 6,matthew.harris6262@email.com,25,North,2022-08-27,14,694.07,242,1,3,7793.72,0
+CUST0263,Rachel Clark 6,rachel.clark6263@email.com,32,West,2023-07-18,21,1873.31,244,7,4,43366.48,1
+CUST0264,Andrew Lewis 6,andrew.lewis6264@email.com,42,East,2022-10-22,21,165.37,394,1,10,3100.79,0
+CUST0265,Stephanie Robinson 6,stephanie.robinson6265@email.com,68,North,2024-01-27,30,1846.87,214,2,1,66424.64,1
+CUST0266,Joshua Walker 6,joshua.walker6266@email.com,53,South,2023-02-11,30,1510.56,149,0,1,41662.31,0
+CUST0267,Megan Hall 6,megan.hall6267@email.com,28,East,2023-09-10,10,935.98,329,8,9,9337.01,1
+CUST0268,Ryan Allen 6,ryan.allen6268@email.com,54,West,2022-05-18,9,425.98,58,5,3,4188.25,0
+CUST0269,Ashley Young 6,ashley.young6269@email.com,38,South,2023-10-26,1,1486.4,152,3,3,1552.37,0
+CUST0270,Kevin King 6,kevin.king6270@email.com,47,West,2023-10-17,17,689.46,206,1,3,13979.12,0
+CUST0271,Brittany Wright 6,brittany.wright6271@email.com,42,South,2023-05-04,1,558.53,121,7,5,659.97,1
+CUST0272,Brandon Scott 6,brandon.scott6272@email.com,59,Central,2022-11-06,1,560.03,185,3,1,597.62,1
+CUST0273,Amber Green 6,amber.green6273@email.com,41,South,2023-04-22,13,1387.84,361,4,2,19042.97,1
+CUST0274,Tyler Adams 6,tyler.adams6274@email.com,45,Central,2022-10-30,8,477.3,69,7,3,3749.64,1
+CUST0275,Melissa Baker 6,melissa.baker6275@email.com,45,West,2023-09-13,23,1121.01,242,8,4,28483.86,1
+CUST0276,Aaron Nelson 6,aaron.nelson6276@email.com,60,North,2023-11-28,17,921.16,361,5,2,18273.29,1
+CUST0277,Heather Carter 6,heather.carter6277@email.com,25,Central,2022-04-25,29,1035.7,294,8,3,26005.01,1
+CUST0278,Adam Mitchell 6,adam.mitchell6278@email.com,55,West,2024-05-24,4,1376.58,368,7,2,6384.88,1
+CUST0279,Danielle Perez 6,danielle.perez6279@email.com,25,West,2023-04-02,5,1050.83,234,0,9,5175.08,0
+CUST0280,Jonathan Roberts 6,jonathan.roberts6280@email.com,41,North,2024-04-06,13,546.19,2,3,10,5887.79,0
+CUST0281,Crystal Turner 6,crystal.turner6281@email.com,44,North,2023-03-10,18,1988.54,36,7,1,32745.39,1
+CUST0282,Nathan Phillips 6,nathan.phillips6282@email.com,30,West,2022-07-04,12,1986.07,196,7,7,22647.35,1
+CUST0283,Monica Campbell 6,monica.campbell6283@email.com,64,Central,2023-12-01,5,1324.39,179,1,3,7927.39,0
+CUST0284,Samuel Parker 6,samuel.parker6284@email.com,55,South,2023-02-07,24,1958.51,2,0,5,46308.65,0
+CUST0285,Vanessa Evans 6,vanessa.evans6285@email.com,56,West,2024-01-07,18,789.59,118,3,8,13338.03,0
+CUST0286,Benjamin Edwards 6,benjamin.edwards6286@email.com,34,North,2022-10-10,2,1628.48,215,0,4,2874.05,0
+CUST0287,Alicia Collins 6,alicia.collins6287@email.com,60,North,2022-04-14,15,1215.68,361,0,4,19989.73,1
+CUST0288,Gregory Stewart 6,gregory.stewart6288@email.com,50,South,2023-02-16,18,473.67,398,0,3,8539.35,1
+CUST0289,Tiffany Sanchez 6,tiffany.sanchez6289@email.com,36,Central,2022-10-24,11,1176.08,396,5,4,11911.06,1
+CUST0290,Patrick Morris 6,patrick.morris6290@email.com,64,Central,2022-05-27,8,856.44,141,0,9,8080.74,0
+CUST0291,Kayla Rogers 6,kayla.rogers6291@email.com,33,West,2024-06-19,18,1016.46,177,6,9,16969.69,0
+CUST0292,Eric Reed 6,eric.reed6292@email.com,48,South,2023-03-03,10,784.1,387,8,8,7028.57,1
+CUST0293,Andrea Cook 6,andrea.cook6293@email.com,41,South,2022-08-19,26,952.9,30,8,7,29411.24,0
+CUST0294,Steven Morgan 6,steven.morgan6294@email.com,55,South,2023-07-25,13,523.57,105,5,2,7955.95,1
+CUST0295,Jennifer Bell 6,jennifer.bell6295@email.com,45,North,2024-05-17,18,1462.94,98,0,5,25039.11,0
+CUST0296,Timothy Murphy 6,timothy.murphy6296@email.com,60,North,2023-09-12,28,191.93,390,8,4,5329.75,1
+CUST0297,Laura Bailey 6,laura.bailey6297@email.com,43,East,2024-06-09,30,79.9,98,1,8,2794.37,0
+CUST0298,Kenneth Rivera 6,kenneth.rivera6298@email.com,60,South,2023-12-14,13,1834.5,283,5,5,22710.08,1
+CUST0299,Sharon Cooper 6,sharon.cooper6299@email.com,63,East,2023-07-01,10,560.05,263,7,8,4701.3,1
+CUST0300,James Wilson 7,james.wilson7300@email.com,52,East,2024-01-10,30,446.1,161,6,1,13717.71,1
+CUST0301,Emily Chen 7,emily.chen7301@email.com,31,North,2022-08-15,9,1128.96,300,6,5,8747.95,1
+CUST0302,Michael Brown 7,michael.brown7302@email.com,36,West,2022-12-04,19,1675.06,256,8,6,28736.8,1
+CUST0303,Sarah Johnson 7,sarah.johnson7303@email.com,53,West,2024-04-21,15,378.06,181,2,3,6170.65,0
+CUST0304,David Lee 7,david.lee7304@email.com,33,Central,2023-05-16,21,1916.61,269,0,2,47416.13,1
+CUST0305,Jessica Martinez 7,jessica.martinez7305@email.com,25,North,2023-11-16,14,318.11,323,3,2,4822.6,1
+CUST0306,Robert Taylor 7,robert.taylor7306@email.com,35,Central,2022-01-10,15,777.74,317,7,8,9406.29,1
+CUST0307,Amanda Davis 7,amanda.davis7307@email.com,57,West,2023-06-29,1,82.62,370,4,9,98.4,1
+CUST0308,Christopher Anderson 7,christopher.anderson7308@email.com,54,West,2022-01-18,26,1882.44,92,1,2,49420.84,0
+CUST0309,Lauren Thomas 7,lauren.thomas7309@email.com,34,Central,2022-09-04,17,542.22,182,4,7,7665.54,0
+CUST0310,Daniel Jackson 7,daniel.jackson7310@email.com,51,Central,2023-02-20,8,1980.95,116,4,2,16822.14,1
+CUST0311,Nicole White 7,nicole.white7311@email.com,63,North,2024-05-28,3,840.29,194,8,8,2073.28,1
+CUST0312,Matthew Harris 7,matthew.harris7312@email.com,66,South,2022-01-10,3,1024.72,223,5,10,3661.11,0
+CUST0313,Rachel Clark 7,rachel.clark7313@email.com,55,North,2022-04-08,8,462.26,355,7,5,3027.34,1
+CUST0314,Andrew Lewis 7,andrew.lewis7314@email.com,65,East,2022-03-18,29,1108.91,337,0,3,37673.76,1
+CUST0315,Stephanie Robinson 7,stephanie.robinson7315@email.com,23,South,2022-11-19,19,331.17,365,6,2,5787.03,1
+CUST0316,Joshua Walker 7,joshua.walker7316@email.com,37,Central,2023-08-01,27,1706.41,347,8,6,43932.45,1
+CUST0317,Megan Hall 7,megan.hall7317@email.com,30,North,2024-01-28,17,1503.64,178,0,2,24918.62,0
+CUST0318,Ryan Allen 7,ryan.allen7318@email.com,26,East,2024-05-08,20,1549.56,305,6,6,25160.21,1
+CUST0319,Ashley Young 7,ashley.young7319@email.com,50,West,2022-10-07,8,743.83,193,6,3,6378.36,1
+CUST0320,Kevin King 7,kevin.king7320@email.com,46,North,2023-11-08,25,1256.3,127,1,2,28492.53,0
+CUST0321,Brittany Wright 7,brittany.wright7321@email.com,67,South,2023-01-25,24,809.76,185,1,2,15587.78,0
+CUST0322,Brandon Scott 7,brandon.scott7322@email.com,50,East,2022-11-12,25,576.04,68,1,3,14003.41,0
+CUST0323,Amber Green 7,amber.green7323@email.com,57,Central,2023-07-25,14,251.42,46,5,9,2946.93,0
+CUST0324,Tyler Adams 7,tyler.adams7324@email.com,42,West,2023-09-05,1,619.1,199,1,9,719.45,0
+CUST0325,Melissa Baker 7,melissa.baker7325@email.com,58,Central,2022-09-06,6,1386.37,87,2,5,7656.53,0
+CUST0326,Aaron Nelson 7,aaron.nelson7326@email.com,31,North,2023-05-20,6,897.62,216,4,8,5994.67,0
+CUST0327,Heather Carter 7,heather.carter7327@email.com,38,South,2023-01-05,24,1268.82,305,3,8,25664.34,0
+CUST0328,Adam Mitchell 7,adam.mitchell7328@email.com,22,West,2022-11-08,11,1691.15,195,5,8,17372.91,0
+CUST0329,Danielle Perez 7,danielle.perez7329@email.com,63,Central,2024-04-15,5,635.85,309,3,8,2942.95,0
+CUST0330,Jonathan Roberts 7,jonathan.roberts7330@email.com,42,East,2023-02-12,24,1405.17,252,3,6,32052.11,0
+CUST0331,Crystal Turner 7,crystal.turner7331@email.com,47,East,2024-04-16,4,1867.53,103,8,3,8013.09,1
+CUST0332,Nathan Phillips 7,nathan.phillips7332@email.com,23,West,2023-07-18,23,458.81,150,1,7,11282.78,0
+CUST0333,Monica Campbell 7,monica.campbell7333@email.com,62,East,2022-05-23,8,542.73,79,6,7,3601.93,0
+CUST0334,Samuel Parker 7,samuel.parker7334@email.com,52,Central,2023-09-05,13,1092.02,355,6,9,11565.78,1
+CUST0335,Vanessa Evans 7,vanessa.evans7335@email.com,66,Central,2023-01-04,20,1294.45,44,1,4,27521.06,0
+CUST0336,Benjamin Edwards 7,benjamin.edwards7336@email.com,32,Central,2022-12-30,2,1148.28,331,6,6,2724.38,1
+CUST0337,Alicia Collins 7,alicia.collins7337@email.com,28,North,2023-03-17,4,554.54,262,8,9,2289.6,1
+CUST0338,Gregory Stewart 7,gregory.stewart7338@email.com,36,West,2023-08-13,12,812.71,396,8,3,9147.74,1
+CUST0339,Tiffany Sanchez 7,tiffany.sanchez7339@email.com,52,North,2022-01-26,10,861.15,44,1,3,8089.05,0
+CUST0340,Patrick Morris 7,patrick.morris7340@email.com,51,South,2022-12-18,17,991.71,244,1,8,18356.11,0
+CUST0341,Kayla Rogers 7,kayla.rogers7341@email.com,42,North,2023-04-09,10,137.13,364,1,1,1562.83,1
+CUST0342,Eric Reed 7,eric.reed7342@email.com,28,South,2023-10-26,30,1968.61,125,8,3,60284.59,1
+CUST0343,Andrea Cook 7,andrea.cook7343@email.com,57,West,2022-12-05,15,502.12,208,2,3,7955.02,0
+CUST0344,Steven Morgan 7,steven.morgan7344@email.com,47,North,2023-03-19,24,1247.51,102,7,10,29096.56,0
+CUST0345,Jennifer Bell 7,jennifer.bell7345@email.com,67,South,2022-01-05,7,592.77,361,1,10,3488.4,0
+CUST0346,Timothy Murphy 7,timothy.murphy7346@email.com,56,South,2024-06-11,12,685.67,235,1,5,8789.86,0
+CUST0347,Laura Bailey 7,laura.bailey7347@email.com,55,East,2023-05-17,20,807.85,201,1,6,15200.41,0
+CUST0348,Kenneth Rivera 7,kenneth.rivera7348@email.com,61,South,2023-04-14,27,1363.5,153,1,3,34063.51,0
+CUST0349,Sharon Cooper 7,sharon.cooper7349@email.com,41,North,2022-09-02,6,777.95,73,8,7,4515.05,0
+CUST0350,James Wilson 8,james.wilson8350@email.com,58,West,2022-05-22,14,412.22,326,8,3,5897.84,1
+CUST0351,Emily Chen 8,emily.chen8351@email.com,40,South,2023-05-17,6,663.43,231,0,6,4700.02,0
+CUST0352,Michael Brown 8,michael.brown8352@email.com,30,South,2023-05-12,27,798.69,288,8,8,20780.84,1
+CUST0353,Sarah Johnson 8,sarah.johnson8353@email.com,48,West,2023-05-19,16,376.14,290,0,4,5517.74,0
+CUST0354,David Lee 8,david.lee8354@email.com,36,Central,2022-10-09,10,378.01,235,7,9,3796.44,1
+CUST0355,Jessica Martinez 8,jessica.martinez8355@email.com,29,East,2023-08-10,25,1109.06,188,8,1,30610.1,1
+CUST0356,Robert Taylor 8,robert.taylor8356@email.com,56,South,2023-03-28,14,249.71,335,3,5,4020.07,1
+CUST0357,Amanda Davis 8,amanda.davis8357@email.com,50,East,2022-02-03,12,1731.29,45,7,2,23066.03,1
+CUST0358,Christopher Anderson 8,christopher.anderson8358@email.com,35,Central,2022-08-31,23,733.73,364,6,3,17659.85,1
+CUST0359,Lauren Thomas 8,lauren.thomas8359@email.com,35,South,2024-03-14,26,165.75,180,8,5,4476.46,1
+CUST0360,Daniel Jackson 8,daniel.jackson8360@email.com,42,East,2022-06-22,10,1166.83,264,1,3,13828.2,1
+CUST0361,Nicole White 8,nicole.white8361@email.com,48,North,2024-03-15,9,1740.74,65,2,4,13449.79,0
+CUST0362,Matthew Harris 8,matthew.harris8362@email.com,37,West,2022-11-26,16,327.23,324,4,7,4974.26,1
+CUST0363,Rachel Clark 8,rachel.clark8363@email.com,62,North,2022-03-19,13,1055.45,143,5,8,16192.0,0
+CUST0364,Andrew Lewis 8,andrew.lewis8364@email.com,59,North,2022-12-02,28,1559.56,376,1,8,46022.95,0
+CUST0365,Stephanie Robinson 8,stephanie.robinson8365@email.com,44,North,2023-12-16,26,1092.13,112,6,4,28335.35,1
+CUST0366,Joshua Walker 8,joshua.walker8366@email.com,40,East,2022-11-27,18,1176.97,290,7,6,24525.6,1
+CUST0367,Megan Hall 8,megan.hall8367@email.com,25,North,2024-02-20,4,1271.05,236,0,2,5957.53,0
+CUST0368,Ryan Allen 8,ryan.allen8368@email.com,50,West,2022-06-11,1,1984.08,220,3,3,2287.36,1
+CUST0369,Ashley Young 8,ashley.young8369@email.com,32,East,2022-11-06,3,1326.45,129,1,6,4241.21,0
+CUST0370,Kevin King 8,kevin.king8370@email.com,32,North,2023-10-27,13,1269.93,372,3,7,17535.86,1
+CUST0371,Brittany Wright 8,brittany.wright8371@email.com,28,North,2023-12-22,7,979.77,68,3,9,7352.15,0
+CUST0372,Brandon Scott 8,brandon.scott8372@email.com,22,East,2022-01-10,27,285.16,217,2,8,6377.59,0
+CUST0373,Amber Green 8,amber.green8373@email.com,27,North,2023-01-28,4,661.04,154,2,7,2933.39,0
+CUST0374,Tyler Adams 8,tyler.adams8374@email.com,30,South,2024-02-11,3,1084.49,5,2,8,3059.81,0
+CUST0375,Melissa Baker 8,melissa.baker8375@email.com,62,South,2022-08-07,30,852.83,352,7,4,21355.08,1
+CUST0376,Aaron Nelson 8,aaron.nelson8376@email.com,30,North,2022-04-13,19,1473.52,180,6,6,31256.58,1
+CUST0377,Heather Carter 8,heather.carter8377@email.com,39,North,2022-09-11,8,1129.12,308,4,1,10289.96,1
+CUST0378,Adam Mitchell 8,adam.mitchell8378@email.com,41,South,2023-11-06,17,1233.51,97,6,5,22195.72,0
+CUST0379,Danielle Perez 8,danielle.perez8379@email.com,37,West,2024-03-13,13,269.85,256,1,9,4053.52,0
+CUST0380,Jonathan Roberts 8,jonathan.roberts8380@email.com,45,East,2022-01-13,5,804.33,292,6,6,4096.22,1
+CUST0381,Crystal Turner 8,crystal.turner8381@email.com,52,North,2022-06-26,1,1195.36,8,4,4,975.33,0
+CUST0382,Nathan Phillips 8,nathan.phillips8382@email.com,47,Central,2022-03-03,10,1275.71,257,6,7,13786.91,1
+CUST0383,Monica Campbell 8,monica.campbell8383@email.com,62,Central,2022-03-26,18,1251.29,143,1,5,18730.5,0
+CUST0384,Samuel Parker 8,samuel.parker8384@email.com,31,Central,2022-07-28,11,811.93,325,1,5,9641.0,1
+CUST0385,Vanessa Evans 8,vanessa.evans8385@email.com,37,North,2024-01-18,8,218.11,223,1,8,1823.26,0
+CUST0386,Benjamin Edwards 8,benjamin.edwards8386@email.com,41,South,2022-02-26,4,74.7,71,0,3,298.37,0
+CUST0387,Alicia Collins 8,alicia.collins8387@email.com,55,Central,2022-12-22,26,1653.89,133,2,6,36584.18,0
+CUST0388,Gregory Stewart 8,gregory.stewart8388@email.com,39,North,2024-03-10,25,1804.8,172,6,5,45550.52,1
+CUST0389,Tiffany Sanchez 8,tiffany.sanchez8389@email.com,67,Central,2022-09-27,21,200.29,234,8,6,3458.14,1
+CUST0390,Patrick Morris 8,patrick.morris8390@email.com,58,South,2024-05-29,12,356.75,396,1,10,4579.16,0
+CUST0391,Kayla Rogers 8,kayla.rogers8391@email.com,36,Central,2022-04-29,1,135.87,7,3,1,134.34,0
+CUST0392,Eric Reed 8,eric.reed8392@email.com,31,South,2023-01-28,30,1922.67,19,8,7,51324.11,0
+CUST0393,Andrea Cook 8,andrea.cook8393@email.com,48,East,2022-09-12,9,1660.69,293,5,2,14958.41,1
+CUST0394,Steven Morgan 8,steven.morgan8394@email.com,33,South,2022-02-23,26,1055.76,24,6,2,31589.09,0
+CUST0395,Jennifer Bell 8,jennifer.bell8395@email.com,40,East,2024-06-05,11,218.45,234,0,6,2115.24,0
+CUST0396,Timothy Murphy 8,timothy.murphy8396@email.com,41,Central,2023-08-01,8,954.66,303,7,4,8347.44,1
+CUST0397,Laura Bailey 8,laura.bailey8397@email.com,37,South,2023-07-14,1,1868.18,13,3,9,1753.42,0
+CUST0398,Kenneth Rivera 8,kenneth.rivera8398@email.com,66,North,2024-05-09,11,52.85,337,6,5,489.25,1
+CUST0399,Sharon Cooper 8,sharon.cooper8399@email.com,37,West,2023-06-27,16,1924.31,73,4,2,25171.83,0
+CUST0400,James Wilson 9,james.wilson9400@email.com,55,West,2022-08-26,23,1796.38,235,1,10,34632.96,0
+CUST0401,Emily Chen 9,emily.chen9401@email.com,62,West,2022-05-17,3,1204.2,32,6,3,3232.22,0
+CUST0402,Michael Brown 9,michael.brown9402@email.com,42,West,2022-09-25,23,1672.2,168,5,8,34952.31,0
+CUST0403,Sarah Johnson 9,sarah.johnson9403@email.com,34,South,2022-03-18,25,1551.79,56,2,2,33586.55,0
+CUST0404,David Lee 9,david.lee9404@email.com,42,West,2023-04-23,4,1095.05,395,3,8,4044.34,1
+CUST0405,Jessica Martinez 9,jessica.martinez9405@email.com,29,North,2022-09-29,6,1624.81,156,0,4,11058.81,0
+CUST0406,Robert Taylor 9,robert.taylor9406@email.com,31,North,2022-12-02,23,534.03,183,6,9,10066.65,0
+CUST0407,Amanda Davis 9,amanda.davis9407@email.com,38,South,2022-11-03,1,1906.59,232,8,9,1715.82,1
+CUST0408,Christopher Anderson 9,christopher.anderson9408@email.com,28,South,2023-04-19,4,73.32,400,3,3,257.87,1
+CUST0409,Lauren Thomas 9,lauren.thomas9409@email.com,45,North,2023-02-15,19,1192.93,39,0,2,19925.39,0
+CUST0410,Daniel Jackson 9,daniel.jackson9410@email.com,50,South,2023-10-24,3,1814.9,170,1,1,6407.93,0
+CUST0411,Nicole White 9,nicole.white9411@email.com,32,Central,2022-02-21,14,1652.29,203,7,1,22046.98,1
+CUST0412,Matthew Harris 9,matthew.harris9412@email.com,33,East,2023-03-13,7,1821.19,141,4,8,14703.54,0
+CUST0413,Rachel Clark 9,rachel.clark9413@email.com,61,Central,2022-02-05,20,529.28,152,7,7,12206.38,1
+CUST0414,Andrew Lewis 9,andrew.lewis9414@email.com,25,North,2023-05-06,9,796.88,215,3,9,6452.28,0
+CUST0415,Stephanie Robinson 9,stephanie.robinson9415@email.com,56,North,2024-04-01,13,1574.74,184,7,9,22776.19,0
+CUST0416,Joshua Walker 9,joshua.walker9416@email.com,58,Central,2022-12-19,11,807.34,93,0,6,9225.73,0
+CUST0417,Megan Hall 9,megan.hall9417@email.com,39,North,2022-01-31,26,1983.49,272,5,10,61876.76,0
+CUST0418,Ryan Allen 9,ryan.allen9418@email.com,28,South,2022-06-13,22,520.25,274,0,4,11792.03,0
+CUST0419,Ashley Young 9,ashley.young9419@email.com,46,East,2024-03-27,30,1686.48,89,2,4,52466.79,0
+CUST0420,Kevin King 9,kevin.king9420@email.com,66,East,2024-04-05,30,1203.55,361,5,10,37025.14,1
+CUST0421,Brittany Wright 9,brittany.wright9421@email.com,34,West,2023-07-31,18,652.65,252,0,2,9662.1,0
+CUST0422,Brandon Scott 9,brandon.scott9422@email.com,36,North,2023-09-09,17,982.08,170,3,3,15631.93,0
+CUST0423,Amber Green 9,amber.green9423@email.com,42,North,2022-07-01,1,338.04,361,2,2,384.89,1
+CUST0424,Tyler Adams 9,tyler.adams9424@email.com,45,North,2024-05-31,12,1423.85,340,6,10,14359.46,1
+CUST0425,Melissa Baker 9,melissa.baker9425@email.com,42,South,2022-11-06,6,1478.09,224,7,6,7712.8,1
+CUST0426,Aaron Nelson 9,aaron.nelson9426@email.com,66,Central,2023-07-30,26,745.81,341,2,7,17892.7,1
+CUST0427,Heather Carter 9,heather.carter9427@email.com,40,South,2023-12-07,6,1471.22,360,6,10,7176.2,1
+CUST0428,Adam Mitchell 9,adam.mitchell9428@email.com,42,Central,2023-09-09,8,1297.31,54,7,3,9677.59,1
+CUST0429,Danielle Perez 9,danielle.perez9429@email.com,37,East,2022-03-21,11,377.38,46,5,8,3339.87,0
+CUST0430,Jonathan Roberts 9,jonathan.roberts9430@email.com,37,North,2022-08-03,12,550.48,56,0,1,6304.37,0
+CUST0431,Crystal Turner 9,crystal.turner9431@email.com,48,South,2024-01-21,29,857.34,194,5,9,23623.17,0
+CUST0432,Nathan Phillips 9,nathan.phillips9432@email.com,52,Central,2024-04-28,21,1528.57,116,2,8,26626.4,0
+CUST0433,Monica Campbell 9,monica.campbell9433@email.com,24,East,2024-05-16,1,671.5,54,1,6,582.89,0
+CUST0434,Samuel Parker 9,samuel.parker9434@email.com,32,North,2023-01-20,18,1886.58,48,5,10,40550.13,0
+CUST0435,Vanessa Evans 9,vanessa.evans9435@email.com,67,North,2023-05-10,14,1887.76,85,6,3,21709.07,1
+CUST0436,Benjamin Edwards 9,benjamin.edwards9436@email.com,35,South,2022-12-06,14,1409.53,370,8,5,21001.08,1
+CUST0437,Alicia Collins 9,alicia.collins9437@email.com,37,North,2022-11-01,2,816.16,282,7,3,1341.44,1
+CUST0438,Gregory Stewart 9,gregory.stewart9438@email.com,49,North,2022-01-04,10,1656.6,321,7,4,13895.47,1
+CUST0439,Tiffany Sanchez 9,tiffany.sanchez9439@email.com,32,East,2022-07-31,3,973.46,60,4,7,2886.44,0
+CUST0440,Patrick Morris 9,patrick.morris9440@email.com,38,North,2023-11-08,21,1111.05,95,5,7,22113.2,0
+CUST0441,Kayla Rogers 9,kayla.rogers9441@email.com,24,East,2023-04-02,15,956.86,116,4,10,11836.2,0
+CUST0442,Eric Reed 9,eric.reed9442@email.com,66,North,2024-02-10,3,1352.88,278,6,10,3616.27,1
+CUST0443,Andrea Cook 9,andrea.cook9443@email.com,46,Central,2022-03-04,14,1932.97,352,7,10,31192.84,1
+CUST0444,Steven Morgan 9,steven.morgan9444@email.com,41,North,2023-05-03,13,1810.42,366,0,9,24205.94,0
+CUST0445,Jennifer Bell 9,jennifer.bell9445@email.com,58,Central,2023-06-14,5,284.55,388,7,3,1678.31,1
+CUST0446,Timothy Murphy 9,timothy.murphy9446@email.com,35,South,2022-06-21,5,133.22,41,6,4,798.59,0
+CUST0447,Laura Bailey 9,laura.bailey9447@email.com,31,Central,2023-10-05,9,673.51,373,1,2,5790.27,1
+CUST0448,Kenneth Rivera 9,kenneth.rivera9448@email.com,57,East,2023-02-11,28,588.59,235,0,10,17057.84,0
+CUST0449,Sharon Cooper 9,sharon.cooper9449@email.com,48,North,2024-03-11,14,341.8,291,1,2,4905.18,1
+CUST0450,James Wilson 10,james.wilson10450@email.com,40,Central,2022-04-14,29,720.54,211,4,7,22189.42,0
+CUST0451,Emily Chen 10,emily.chen10451@email.com,60,West,2023-08-09,2,385.79,207,2,10,805.11,0
+CUST0452,Michael Brown 10,michael.brown10452@email.com,47,North,2023-12-12,13,1784.67,170,3,1,25481.34,1
+CUST0453,Sarah Johnson 10,sarah.johnson10453@email.com,45,North,2022-10-03,11,1643.9,156,4,5,20562.76,0
+CUST0454,David Lee 10,david.lee10454@email.com,66,North,2024-05-28,28,494.52,154,7,6,12569.46,1
+CUST0455,Jessica Martinez 10,jessica.martinez10455@email.com,60,North,2023-03-03,7,911.35,209,7,9,7316.44,1
+CUST0456,Robert Taylor 10,robert.taylor10456@email.com,25,Central,2024-04-20,26,360.0,160,8,7,7995.87,1
+CUST0457,Amanda Davis 10,amanda.davis10457@email.com,55,Central,2024-05-21,1,388.79,103,0,4,316.18,0
+CUST0458,Christopher Anderson 10,christopher.anderson10458@email.com,45,South,2022-02-21,9,768.29,238,8,7,7289.13,1
+CUST0459,Lauren Thomas 10,lauren.thomas10459@email.com,65,North,2022-05-07,8,776.31,305,7,3,7354.5,1
+CUST0460,Daniel Jackson 10,daniel.jackson10460@email.com,59,Central,2023-05-01,12,721.29,133,1,5,7019.42,0
+CUST0461,Nicole White 10,nicole.white10461@email.com,32,Central,2022-02-20,25,1931.59,114,3,4,43829.39,0
+CUST0462,Matthew Harris 10,matthew.harris10462@email.com,54,North,2023-02-24,28,1571.59,393,0,8,51247.94,0
+CUST0463,Rachel Clark 10,rachel.clark10463@email.com,33,Central,2023-10-25,26,66.5,130,4,5,1676.3,0
+CUST0464,Andrew Lewis 10,andrew.lewis10464@email.com,44,West,2023-01-21,9,475.51,155,8,10,4103.53,0
+CUST0465,Stephanie Robinson 10,stephanie.robinson10465@email.com,22,Central,2022-04-15,22,1934.65,192,8,10,44418.87,0
+CUST0466,Joshua Walker 10,joshua.walker10466@email.com,65,North,2022-11-02,16,174.48,142,5,5,2524.96,0
+CUST0467,Megan Hall 10,megan.hall10467@email.com,63,East,2023-12-30,7,342.36,392,3,1,2689.31,1
+CUST0468,Ryan Allen 10,ryan.allen10468@email.com,60,West,2024-04-01,22,673.19,72,0,8,17757.22,0
+CUST0469,Ashley Young 10,ashley.young10469@email.com,48,West,2022-09-23,13,1486.63,299,3,6,21077.53,1
+CUST0470,Kevin King 10,kevin.king10470@email.com,65,Central,2022-08-16,21,1580.55,344,5,9,30538.81,1
+CUST0471,Brittany Wright 10,brittany.wright10471@email.com,64,Central,2022-06-24,6,622.88,242,2,5,4073.91,0
+CUST0472,Brandon Scott 10,brandon.scott10472@email.com,33,East,2023-07-27,21,224.13,182,3,5,4557.0,0
+CUST0473,Amber Green 10,amber.green10473@email.com,45,East,2022-12-06,19,623.4,61,7,1,13580.51,1
+CUST0474,Tyler Adams 10,tyler.adams10474@email.com,59,Central,2023-08-21,3,970.83,100,8,2,3340.62,1
+CUST0475,Melissa Baker 10,melissa.baker10475@email.com,55,East,2023-01-26,14,155.42,78,2,4,2038.95,0
+CUST0476,Aaron Nelson 10,aaron.nelson10476@email.com,51,South,2023-08-07,11,1731.67,93,1,8,17773.12,0
+CUST0477,Heather Carter 10,heather.carter10477@email.com,42,North,2022-07-01,1,931.5,108,2,10,1030.05,0
+CUST0478,Adam Mitchell 10,adam.mitchell10478@email.com,27,South,2023-05-17,20,895.74,220,6,7,21249.3,1
+CUST0479,Danielle Perez 10,danielle.perez10479@email.com,22,North,2023-01-28,18,438.86,192,0,6,8711.07,0
+CUST0480,Jonathan Roberts 10,jonathan.roberts10480@email.com,34,North,2023-06-28,22,58.04,376,3,4,1375.72,1
+CUST0481,Crystal Turner 10,crystal.turner10481@email.com,41,South,2022-12-19,4,797.92,302,4,3,2636.69,1
+CUST0482,Nathan Phillips 10,nathan.phillips10482@email.com,41,East,2022-02-16,15,1469.27,306,8,6,21454.27,1
+CUST0483,Monica Campbell 10,monica.campbell10483@email.com,30,East,2023-12-05,29,1005.85,385,3,3,34397.84,1
+CUST0484,Samuel Parker 10,samuel.parker10484@email.com,47,North,2024-04-11,8,487.43,68,3,1,4039.34,0
+CUST0485,Vanessa Evans 10,vanessa.evans10485@email.com,29,East,2022-06-23,23,1318.55,20,6,5,33617.09,0
+CUST0486,Benjamin Edwards 10,benjamin.edwards10486@email.com,25,Central,2023-10-01,2,1340.84,335,0,1,2885.22,1
+CUST0487,Alicia Collins 10,alicia.collins10487@email.com,50,West,2023-03-03,4,1117.2,243,2,4,4817.71,0
+CUST0488,Gregory Stewart 10,gregory.stewart10488@email.com,22,East,2023-10-08,14,1340.25,340,8,5,19685.15,1
+CUST0489,Tiffany Sanchez 10,tiffany.sanchez10489@email.com,30,West,2023-12-19,27,1802.31,262,1,5,41149.14,0
+CUST0490,Patrick Morris 10,patrick.morris10490@email.com,53,South,2022-04-19,20,439.51,135,8,4,8290.64,1
+CUST0491,Kayla Rogers 10,kayla.rogers10491@email.com,40,South,2023-02-24,2,1118.87,107,7,6,2000.1,0
+CUST0492,Eric Reed 10,eric.reed10492@email.com,64,North,2022-01-14,30,265.34,294,7,3,9391.27,1
+CUST0493,Andrea Cook 10,andrea.cook10493@email.com,54,North,2024-03-09,24,1460.97,132,3,8,41916.97,0
+CUST0494,Steven Morgan 10,steven.morgan10494@email.com,38,West,2022-10-31,2,244.63,90,0,5,461.9,0
+CUST0495,Jennifer Bell 10,jennifer.bell10495@email.com,42,West,2023-11-25,24,276.01,389,0,1,7556.93,1
+CUST0496,Timothy Murphy 10,timothy.murphy10496@email.com,63,South,2023-11-11,11,747.18,225,4,2,7800.21,1
+CUST0497,Laura Bailey 10,laura.bailey10497@email.com,33,North,2022-12-17,13,830.49,234,4,7,11616.47,0
+CUST0498,Kenneth Rivera 10,kenneth.rivera10498@email.com,48,South,2023-05-05,4,308.4,372,0,3,1038.06,1
+CUST0499,Sharon Cooper 10,sharon.cooper10499@email.com,52,Central,2023-08-28,22,904.42,313,6,6,20783.53,1
+CUST0500,James Wilson 11,james.wilson11500@email.com,65,South,2024-06-02,16,1844.78,58,6,8,24155.96,0
