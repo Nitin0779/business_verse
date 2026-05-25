@@ -126,7 +126,7 @@ with tab2:
     
     col_d1, col_d2 = st.columns([1, 3])
     with col_d1:
-        if st.button("🗑️ Remove Duplicates", use_container_width=True, disabled=(dup_count == 0)):
+        if st.button("🗑️ Remove Duplicates", use_container_width=True, disabled=bool(dup_count == 0)):
             cleaned, removed = clean_remove_duplicates(df_clean)
             st.session_state["clean_df"] = cleaned
             st.success(f"Removed **{removed}** duplicate rows.")
