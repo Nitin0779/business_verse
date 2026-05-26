@@ -1,0 +1,28 @@
+name: frontend_flutter
+description: BusinessVerse Professional Analytics Platform Frontend.
+version: 1.0.0+1
+
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.0                    # API network calls
+  provider: ^6.1.2                # Client state management
+  syncfusion_flutter_charts: ^25.1.37 # High-fidelity interactive charts
+  google_fonts: ^6.1.0            # Premium typography
+  file_picker: ^8.0.0             # Cross-platform file picker uploads
+  shared_preferences: ^2.2.0      # JWT token caching
+  animations: ^2.0.1              # UI transitions
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
