@@ -38,9 +38,9 @@ def get_active_or_default_df(session_id: str, file_name: str) -> pd.DataFrame:
     if session_id in SESSION_DATA and "clean" in SESSION_DATA[session_id]:
         df = SESSION_DATA[session_id]["clean"]
         # Verify if column signatures match what we need
-        if file_name == "orders.csv" and "total_amount" in df.columns:
+        if file_name == "orders.csv" and all(c in df.columns for c in ["total_amount", "status", "order_date"]):
             return df
-        if file_name == "customers.csv" and "churn" in df.columns:
+        if file_name == "customers.csv" and all(c in df.columns for c in ["churn", "purchase_frequency", "total_spent"]):
             return df
     
     return load_default_data(file_name)
