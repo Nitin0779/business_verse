@@ -319,7 +319,7 @@ class _ReportsScreenState extends State<ReportsScreen> with SingleTickerProvider
               height: 280,
               child: SfCartesianChart(
                 primaryXAxis: CategoryAxis(majorGridLines: const MajorGridLines(width: 0)),
-                primaryYAxis: NumericAxis(labelFormat: '\${value}', gridLines: const MajorGridLines(color: Color(0xFFF1F5F9))),
+                primaryYAxis: NumericAxis(labelFormat: '\${value}', majorGridLines: const MajorGridLines(color: Color(0xFFF1F5F9))),
                 series: <CartesianSeries>[
                   ColumnSeries<_ChartPoint, String>(
                     dataSource: data,
@@ -354,6 +354,12 @@ class _ReportsScreenState extends State<ReportsScreen> with SingleTickerProvider
             SizedBox(
               height: 280,
               child: SfCircularChart(
+                palette: const [
+                  Color(0xFF2563EB),
+                  Color(0xFF10B981),
+                  Color(0xFFF59E0B),
+                  Color(0xFF8B5CF6),
+                ],
                 legend: Legend(isVisible: true, position: LegendPosition.bottom, overflowMode: LegendItemOverflowMode.wrap),
                 series: <CircularSeries>[
                   DoughnutSeries<_ChartPoint, String>(
@@ -361,12 +367,6 @@ class _ReportsScreenState extends State<ReportsScreen> with SingleTickerProvider
                     xValueMapper: (_ChartPoint p, _) => p.x,
                     yValueMapper: (_ChartPoint p, _) => p.y,
                     innerRadius: '60%',
-                    palette: const [
-                      Color(0xFF2563EB),
-                      Color(0xFF10B981),
-                      Color(0xFFF59E0B),
-                      Color(0xFF8B5CF6),
-                    ],
                   ),
                 ],
               ),

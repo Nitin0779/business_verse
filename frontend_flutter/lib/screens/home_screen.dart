@@ -115,7 +115,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             color: Color(0xFF0F172A),
                             letterSpacing: -0.5,
                           ),
-                          textAlign: Center,
+                          textAlign: TextAlign.center,
                         ),
                         const SizedBox(height: 12),
                         const Text(
@@ -125,7 +125,7 @@ class _HomeScreenState extends State<HomeScreen> {
                             color: Color(0xFF64748B),
                             height: 1.5,
                           ),
-                          textAlign: Center,
+                          textAlign: TextAlign.center,
                         ),
                         const SizedBox(height: 36),
                         
@@ -387,7 +387,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 primaryYAxis: NumericAxis(
                   axisLine: const AxisLine(width: 0),
                   majorTickLines: const MajorTickLines(size: 0),
-                  gridLines: const MajorGridLines(color: Color(0xFFF1F5F9)),
+                  majorGridLines: const MajorGridLines(color: Color(0xFFF1F5F9)),
                   labelFormat: '\${value}',
                 ),
                 tooltipBehavior: TooltipBehavior(enable: true),
@@ -430,6 +430,13 @@ class _HomeScreenState extends State<HomeScreen> {
             SizedBox(
               height: 280,
               child: SfCircularChart(
+                palette: const [
+                  Color(0xFF2563EB), // Royal Blue
+                  Color(0xFF10B981), // Emerald
+                  Color(0xFFF59E0B), // Amber
+                  Color(0xFF8B5CF6), // Purple
+                  Color(0xFFEC4899), // Pink
+                ],
                 legend: Legend(
                   isVisible: true,
                   overflowMode: LegendItemOverflowMode.wrap,
@@ -443,13 +450,6 @@ class _HomeScreenState extends State<HomeScreen> {
                     yValueMapper: (_RegionData r, _) => r.revenue,
                     dataLabelSettings: const DataLabelSettings(isVisible: true),
                     innerRadius: '60%',
-                    palette: const [
-                      Color(0xFF2563EB), // Royal Blue
-                      Color(0xFF10B981), // Emerald
-                      Color(0xFFF59E0B), // Amber
-                      Color(0xFF8B5CF6), // Purple
-                      Color(0xFFEC4899), // Pink
-                    ],
                   ),
                 ],
               ),

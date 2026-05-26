@@ -214,7 +214,7 @@ class _MLPredictionsScreenState extends State<MLPredictionsScreen> with SingleTi
                       height: 320,
                       child: SfCartesianChart(
                         primaryXAxis: CategoryAxis(majorGridLines: const MajorGridLines(width: 0)),
-                        primaryYAxis: NumericAxis(labelFormat: '\${value}', gridLines: const MajorGridLines(color: Color(0xFFF1F5F9))),
+                        primaryYAxis: NumericAxis(labelFormat: '\${value}', majorGridLines: const MajorGridLines(color: Color(0xFFF1F5F9))),
                         legend: Legend(isVisible: true, position: LegendPosition.bottom),
                         series: <CartesianSeries>[
                           LineSeries<_SalesPoint, String>(
@@ -668,6 +668,13 @@ class _MLPredictionsScreenState extends State<MLPredictionsScreen> with SingleTi
             SizedBox(
               height: 280,
               child: SfCircularChart(
+                palette: const [
+                  Color(0xFF2563EB),
+                  Color(0xFF10B981),
+                  Color(0xFFF59E0B),
+                  Color(0xFF8B5CF6),
+                  Color(0xFFEC4899),
+                ],
                 legend: Legend(isVisible: true, position: LegendPosition.bottom, overflowMode: LegendItemOverflowMode.wrap),
                 series: <CircularSeries>[
                   DoughnutSeries<_PiePoint, String>(
@@ -676,13 +683,6 @@ class _MLPredictionsScreenState extends State<MLPredictionsScreen> with SingleTi
                     yValueMapper: (_PiePoint p, _) => p.value,
                     dataLabelSettings: const DataLabelSettings(isVisible: true),
                     innerRadius: '60%',
-                    palette: const [
-                      Color(0xFF2563EB),
-                      Color(0xFF10B981),
-                      Color(0xFFF59E0B),
-                      Color(0xFF8B5CF6),
-                      Color(0xFFEC4899),
-                    ],
                   ),
                 ],
               ),
@@ -708,11 +708,11 @@ class _MLPredictionsScreenState extends State<MLPredictionsScreen> with SingleTi
                 primaryXAxis: NumericAxis(
                   title: AxisTitle(text: 'Total Spent (\$)'),
                   labelFormat: '\${value}',
-                  gridLines: const MajorGridLines(color: Color(0xFFF1F5F9)),
+                  majorGridLines: const MajorGridLines(color: Color(0xFFF1F5F9)),
                 ),
                 primaryYAxis: NumericAxis(
                   title: AxisTitle(text: 'Purchase Frequency'),
-                  gridLines: const MajorGridLines(color: Color(0xFFF1F5F9)),
+                  majorGridLines: const MajorGridLines(color: Color(0xFFF1F5F9)),
                 ),
                 series: <CartesianSeries>[
                   ScatterSeries<_ScatterPoint, double>(

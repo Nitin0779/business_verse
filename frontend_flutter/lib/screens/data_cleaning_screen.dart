@@ -276,7 +276,7 @@ class _DataCleaningScreenState extends State<DataCleaningScreen> with SingleTick
                 },
                 children: [
                   TableRow(
-                    backgroundColor: const Color(0xFFF8FAFC),
+                    decoration: const BoxDecoration(color: Color(0xFFF8FAFC)),
                     children: const [
                       Padding(padding: EdgeInsets.all(10), child: Text('Column', style: TextStyle(fontWeight: FontWeight.bold))),
                       Padding(padding: EdgeInsets.all(10), child: Text('Missing Count', style: TextStyle(fontWeight: FontWeight.bold))),
