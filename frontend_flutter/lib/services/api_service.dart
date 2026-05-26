@@ -1,11 +1,20 @@
 import 'dart:convert';
+import 'dart:io' show Platform;
 import 'dart:typed_data';
+import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
 
 class ApiService {
-  // Configured default local API port
-  static const String baseUrl = 'http://localhost:8000';
+  static String get baseUrl {
+    if (kIsWeb) {
+      return 'http://localhost:8000';
+    } else if (Platform.isAndroid) {
+      return 'http://10.0.2.2:8000'; // Maps to host's localhost in Android Emulators
+    } else {
+      return 'http://localhost:8000'; // Windows Desktop, iOS, macOS
+    }
+  }
 
   static Future<String?> getToken() async {
     final prefs = await SharedPreferences.getInstance();
